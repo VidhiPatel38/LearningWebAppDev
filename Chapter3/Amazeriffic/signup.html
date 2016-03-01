@@ -1,78 +1,65 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-<title>Sign Up</title>
-<meta charset="iso-8859-1">
-<link rel="stylesheet" href="styles/layout.css" type="text/css">
-<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
-</head>
-<body>
-<div class="wrapper row1">
-  <header id="header" class="clear">
-    <div class="hgroup">
-      <h1 class="h1"><a href="#">Amazeriffic</a></h1>
-    </div>
-    <nav class="nav_h1">
-      <ul class="nav_ul">
-        <li class="nav_li"><a href="signup.html">Sign Up!</a></li>
-        <li class="nav_li"><a href="faq.html">FAQ</a></li>
-        <li class="last"><a href="#">Support</a></li>
-      </ul>
-    </nav>
-  </header>
-</div>
-<!-- content -->
-<div class="wrapper row2">
-  <div class="container" class="clear">
-    <!-- content body -->
-    <H1>  SIGN UP PAGE</h1>
-  <table class="signup_table">
-  <tr>
-    <th scope="row" style="width:30%">UserName:</th>
-    <td><input type="text" name="username" id="inp1" class="control"></td>
-  </tr>
-  <tr>
-    <th scope="row">Email:</th>
-    <td><input type="email" name="email" id="inp2" class="control"></td>
-  </tr>
-  <tr>
-    <th scope="row">Password:</th>
-    <td><input type="password" name="psw" id="inp3" class="control"></td>
-  </tr>
-  <tr>
-    <th scope="row">Confirm Password:</th>
-    <td><input type="password" name="psw" id="inp5" class="control" ></td>
-  </tr>
-  <tr>
-    <th scope="row">&nbsp;</th>
-    <td><input type="submit" value="SignUp" class="btn" id="inp4">
-                    <input type="submit" value="Cancel" class="btn" id="inp5"></td>
-  </tr>
-</table>
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Amazeriffic</title>
+  </head>
 
-</div>
-<!-- Footer -->
-<div class="wrapper row3">
-  <footer id="footer" class="clear">
-    <div class="fl_left"><h4>Contact Us</h4>
+  <body>
+    <header>
+      <h1 class="heading_class">Amazeriffic</h1>
+      <nav class="heading_nav">
+        <a href="signUp.html">Sign Up!</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="#">Support</a>
+      </nav>
+    </header>
 
-Amazeriffic!<br>
+    <main class="main2">
+        
+            <form class="signup"><center>
+                     <h1 class="signup_heading">  SIGN UP PAGE</h1>
+                <div class="name">
+                   <label for="Username">UserName:</label>  <input type="text" name="username" id="inp1">
+                </div>
+                <div class="email">
+                   <label for="Email">Email:</label> <input type="email" name="email" id="inp2">
+                </div>
+                <div>
+                    <label for="Password">Password:</label> <input type="password" name="psw" id="inp3">
+                </div>
+                 <div>
+                    <label for="confpassword">Confirm Password:</label> <input type="password" name="psw" id="inp5">
+                </div>
+                
+                <div class="submit">
+                    <input type="submit" value="SignUp" class="inp" id="inp4">
+                    <input type="submit" value="Cancel" class="inp" id="inp5">
+                </div>
+           </center> </form>
+            
+            
+    </main>
+    
+    <footer>
+      <div class="contact">
+        <h5>Contact Us</h5>
+        <p>Amazeriffic!</p>
+        <p>555 Fiftieth Street</p>
+        <p>Asheville, NC 28801</p>
+      </div>
 
-
-555 Fiftieth Street<br>
-
-
-Asheville, NC 28801</div>
-    <div class="fl_right">
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a>About Us</a></li>
-    <li><a>Privacy</a></li>
-    <li><a>Support</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    </ul>
-    </div>
-  </footer>
-</div>
-</body>
+      <div class="sitemap">
+        <h5>Sitemap</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
