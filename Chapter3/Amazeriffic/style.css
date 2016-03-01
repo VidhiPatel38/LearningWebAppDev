@@ -1,5 +1,5 @@
 body {
-  background: #f9e933;
+  background: #DFE2DB;
 }
 
 header, main, footer {
@@ -12,23 +12,27 @@ header .container, main .container, footer .container {
 }
 
 header {
-  background: white;
+  background: #78909C;
   overflow: auto;
 }
 
-header h1 {
+.heading_class{
   float: left;
+  margin-left: 15px;
   width: 570px;
 }
 
-header nav {
+.heading_nav{
   float: right;
+  margin-top: 15px;
   width: 285px;
 }
+
 
 main {
   background: white;
   overflow: auto;
+ 
 }
 
 main .left {
@@ -39,6 +43,7 @@ main .left {
 main .right {
   float: right;
   width: 285px;
+  
 }
 
 footer .left {
@@ -46,7 +51,107 @@ footer .left {
   width: 570px;
 }
 
+.submit{
+    margin: 2% 2% 3% 0;
+}
+
 footer .sitemap {
   float: right;
   width: 285px;
+}
+
+
+.main1{
+     background: #7D1935;
+     padding: -2%;
+     overflow: auto;
+    
+}
+
+.div1 p
+ {
+
+    width: 90%;
+    margin-top: -1%;
+    margin-left: 2%;
+    margin-bottom: -1%;
+    color: blanchedalmond;
+    font-family: "Times New Roman", Times, serif;
+}
+ 
+.div_heading{
+  margin-left: 2%;
+    margin-top: 5%;
+   color: ivory; 
+}
+
+.div2 p
+ {
+
+    width: 90%;
+    margin-top: -1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: blanchedalmond;
+   }
+   
+.quest
+{
+    text-align: justify;
+    padding-bottom: 10%;
+}
+ 
+.signup div{
+    margin: 2%;
+}
+
+
+
+.contact
+{
+    float: left;
+}
+
+.main2{
+     background: #7D1935;
+     padding: -2%;
+     overflow: auto;
+    
+}
+
+
+label{
+font-weight: bold;
+width: 4%;
+float: left;
+text-align: right;
+margin-right: -6%;
+display: block;
+color: ivory;
+font-size: x-large;
+margin-left: 30%;
+
+
+}
+.inp{
+    margin-top: 2%;
+    margin-left: 8%;
+    width: 100px;
+    height: 25px;  
+}
+
+input{
+    width: 25%;
+    height: 25px;
+}
+.signup_heading{
+    margin-left:12%;
+    color: ivory;
+    margin-bottom: 5%;
+}
+.signup
+{
+text-align: center;
+    margin: 5%
+    	
 }
