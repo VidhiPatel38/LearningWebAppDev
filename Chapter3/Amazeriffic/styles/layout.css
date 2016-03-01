@@ -1,0 +1,97 @@
+/* 
+REFERENCES:
+HTML 5 Template Name: Basic 85
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+html{overflow-y:scroll;} 
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;width:960px; margin:0 auto;padding:20px 0;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;line-height:30px}
+.fl_right{float:right}
+.fl_right ul{float:right;display:block;list-style:none;}
+.fl_right ul li{float:left;list-style:none;}
+.fl_right ul li a{padding:5px;cursor:pointer;}
+.fl_right ul li a:hover{color:#FF9900;}
+
+
+
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'� '; font-size:26px;}
+q:after{content:' �'; font-size:26px; line-height:0;}
+
+.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3, .row3 a{color:#919191; background-color:#232323;}
+
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'� '; font-size:26px;}
+blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 20px 0 0;}
+.one_quarter{width:225px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+.lastbox{margin-right:0;}
+
+
+.hgroup{float:left; margin:0 0 20px 0;}
+.h1{font-size:36px;}
+
+.nav_h1{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#232323;}
+.nav_ul{padding:0 20px;}
+.nav_li{display:inline; margin-right:25px; text-transform:uppercase;}
+.last{display:inline;text-transform:uppercase;margin-right:0;}
+.nav_li a{color:#C0BAB6; background-color:#232323;}
+.nav_li a:hover{color:#FF9900; background-color:#232323;}
+.last a{color:#C0BAB6; background-color:#232323;}
+.last a:hover{color:#FF9900; background-color:#232323;}
+
+
+.container{padding:30px 0;margin-left:176px}
+.container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+.container .last{margin:0;}
+.container .more{text-align:right;}
+
+
+.col-7{float:left;display:block;width:70%;}
+.col-3{float:left;display:block;width:30%;}
+
+
+.footer{padding:20px 0;}
+.footer p{margin:0; padding:0;}
+.signup_table{border:0;text-align:left;margin:20px 0;width:600px;}
+.signup_table tr td{padding:8px 0;}
+.signup_table tr td .control{width:300px; height:30px; line-height:30px;}
+.signup_table tr td .btn{border:1px;background:#F90;color:#fff;padding:5px 10px;}
